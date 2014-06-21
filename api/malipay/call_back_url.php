@@ -17,7 +17,7 @@
 <html>
     <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>支付宝即时到账交易接口</title>
+		<title>支付宝即时到账交易接口1</title>
 	</head>
 <?php
 	header('Location: http://'.$_SERVER['HTTP_HOST'].'/index.php?g=Wap&m=Alipay_m_&a=call_back_url&out_trade_no='.$_GET['out_trade_no'].'&request_token='.$_GET['request_token'].'&result='.$_GET['result'].'&trade_no='.$_GET['trade_no'].'&sign='.$_GET['sign'].'&sign_type='.$_GET['sign_type'].'');
